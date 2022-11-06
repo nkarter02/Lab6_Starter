@@ -104,7 +104,8 @@ function initFormHandler() {
   localStorage.setItem('recipes', JSON.stringify(recipes));
   event.preventDefault();
   });
-
+  
+  
   // B10. TODO - Get a reference to the "Clear Local Storage" button
   let clsBtn = document.getElementsByClassName('danger')[0];
   // B11. TODO - Add a click event listener to clear local storage button
